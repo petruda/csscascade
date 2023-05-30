@@ -1,11 +1,15 @@
 body{
-    font-family:Arial, Helvetica, sans-serif
-  }
+    font-family:Arial, Helvetica, sans-serif;
+    background: rgb(209,251,63);
+    background: radial-gradient(circle, rgba(209,251,63,1) 0%, rgba(252,70,107,1) 100%);
+    text-align: center;
+}
   
   .para,
   .small-para {
     color: hsl(0, 0%, 0%);
     font-weight: 800;
+    margin: 150px;
   }
    
   #firstp, 
@@ -23,17 +27,24 @@ body{
     background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
     font-size: 20px;
+    height: 30px;
+    width: 45px;
   }
 
   .button-confirm, #confirm {
     background: green;
     color: white;
     font-weight: bold;
+    width: 100px;
+    height: auto;
+    margin: 15px;
   } 
   #cancel-button,
   .button-cancel{
     color:black;
     background-color: white;
+    width: 100px;
+    height: auto;
   }
 
  
@@ -41,6 +52,7 @@ body{
     color: rgb(0, 0, 0);
     font-size: 22px;
     font-weight: 100;
+    margin: 50px;
   }
   .child {
     color: rgb(0, 0, 0);
